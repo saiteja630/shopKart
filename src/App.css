@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 25s forwards;
+  height: 100px;
+  float: left;
+}
+
+.App-header {
+  background-color: rgb(255, 115, 0);
+  height: 120px;
+  padding: 20px;
+  color: black;
+}
+
+
+.App-title {
+  font-size: 2.5em;
+  align-self: flex-end;
+  float: center;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.searchbox {
+  float: right;
+}
+
+.App-intro {
+  font-size: normal;
+}
+
+.App-search{
+  background-color: rgb(148, 243, 255);
+  padding:5px;
+  border-radius: 5px;
+  
+}
+
+.App-search input:focus {
+  outline: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.btn-group .button {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid green;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  float: right;
+}
+.btn-group .button:not(:last-child) {
+  border-right: none;
+}
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
